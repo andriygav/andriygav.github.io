@@ -7,6 +7,17 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		
+		<script
+		    src="https://code.jquery.com/jquery-3.3.1.js"
+		    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+		    crossorigin="anonymous">
+		</script>
+		<script> 
+		$(function(){
+		  $("#header").load("header.html"); 
+		  $("#footer").load("footer.html"); 
+		});
+</script> 
 	</head>
 	<body class="is-preload">
 
@@ -68,7 +79,7 @@
 					</div>
 
 				<!-- Footer -->
-					<div w3-include-html="footer.html"></div>
+					<div id="footer"></div>
 
 			</div>
 
