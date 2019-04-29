@@ -2445,20 +2445,21 @@ input, select, textarea {
 		}
 
 		dl.alt dt {
-			display: block;
-			width: 9em;
+			display: flex;
+			width: 15em;
 			margin: 0;
 			clear: left;
-			float: left;
+			float: right;
 		}
 
 		dl.alt dd {
 			margin: 0 0 0.85em 5.5em;
+			loat: left;
 		}
 
 		dl.alt:after {
 			content: '';
-			display: block;
+			display: flex;
 			clear: both;
 		}
 
