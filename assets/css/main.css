@@ -2445,8 +2445,8 @@ input, select, textarea {
 		}
 
 		dl.alt dt {
-			display: flex;
-			width: 3em;
+			display: block;
+			width: 9em;
 			margin: 0;
 			clear: left;
 			float: left;
@@ -2458,7 +2458,7 @@ input, select, textarea {
 
 		dl.alt:after {
 			content: '';
-			display: flex;
+			display: block;
 			clear: both;
 		}
 
