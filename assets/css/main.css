@@ -2457,6 +2457,31 @@ input, select, textarea {
 			clear: both;
 		}
 
+	    dl.flex {
+			display: flex;
+			flex-wrap: wrap;
+			align-items: flex-start;
+			max-width: 600px; 
+	    }
+
+	    dl.flex dt {
+			flex: 0 0 35%;
+			overflow: hidden;
+	    }
+
+	    dl.flex dd {
+			flex: 65% 0 0;
+			padding-left: 20px;
+			max-width: 65%;
+	    }
+
+		dl.flex:after {
+			content: '';
+			display: block;
+			clear: both;
+		}
+
+
 	ul.alt li {
 		border-top-color: rgba(255, 255, 255, 0.35);
 	}
